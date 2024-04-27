@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "name": "Project Name",
+            "description": "Project Description",
+            "image": "project-image.jpg",
+            "link": "http://www.projectlink.com",
+            "repo": "http://www.projectrepo.com",
+            "tags": ["tag1", "tag2", "tag3"],
+            "tech": ["tech1", "tech2", "tech3"],
+            "featured": "true"
+    }
+    ]
+}
