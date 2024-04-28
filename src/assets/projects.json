@@ -1,14 +1,24 @@
 {
-    "projects": [
-        {
-            "name": "Project Name",
-            "description": "Project Description",
-            "image": "project-image.jpg",
-            "link": "http://www.projectlink.com",
-            "repo": "http://www.projectrepo.com",
-            "tags": ["tag1", "tag2", "tag3"],
-            "tech": ["tech1", "tech2", "tech3"],
-            "featured": "true"
+  "projects": [
+    {
+      "name": "Osmose Statistics",
+      "description": "This website is a page to give you a summary statistics of issues with your OpenStreetMap contributions as flagged by Osmose.",
+      "image": "https://github.com/sammyhawkrad/OsmoseStats/raw/main/result_preview.png",
+      "link": "https://sammyhawkrad.github.io/OsmoseStats/",
+      "repo": "https://github.com/sammyhawkrad/OsmoseStats",
+      "tags": ["Front-end", "OpenStreetMap", "Web Development"],
+      "tech": ["Vue.js", "Osmose API", "OSM API"],
+      "featured": "true"
+    },
+    {
+      "name": "Project Name",
+      "description": "Project Description",
+      "image": "project-image.jpg",
+      "link": "http://www.projectlink.com",
+      "repo": "http://www.projectrepo.com",
+      "tags": ["tag1", "tag2", "tag3"],
+      "tech": ["tech1", "tech2", "tech3"],
+      "featured": "true"
     }
-    ]
+  ]
 }

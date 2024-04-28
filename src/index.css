@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   background-color: #f3f3f3;
-  @apply font-sans
+  @apply font-sans;
 }
 
 body {
-  @apply text-gray-900 max-w-screen-lg mx-auto p-4
+  @apply text-gray-900 max-w-screen-lg mx-auto p-4;
 }
 
 h1 {
-  @apply text-6xl font-bold mb-4
+  @apply text-6xl font-bold mb-4;
 }
