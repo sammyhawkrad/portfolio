@@ -5,7 +5,7 @@ export default function NavBar() {
 
   const toggleMenu = () => setIsOpened(!isOpened);
 
-  const isDesktop = window.innerWidth > 768;
+  const isDesktop = window.innerWidth > 1024;
 
   return (
     <>
@@ -14,8 +14,8 @@ export default function NavBar() {
         <ul
           className={`flex flex-col lg:flex-row justify-center items-center gap-3 ${isOpened || isDesktop ? "" : "hidden" }`}
         >
-          <li className="hover:border-b-2 p-2 active:border-b-2">Home</li>
-          <li className="hover:border-b-2 p-2 active:border-b-2">Projects</li>
+          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#root">Home</a></li>
+          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#featured-projects">Projects</a></li>
           <li className="hover:border-b-2 p-2 active:border-b-2">About</li>
           <li className="hover:border-b-2 p-2 active:border-b-2">Contact</li>
         </ul>

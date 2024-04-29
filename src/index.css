@@ -14,3 +14,7 @@ body {
 h1 {
   @apply text-6xl font-bold mb-4;
 }
+
+#featured-projects {
+  scroll-margin-top: 7rem;
+}

@@ -4,5 +4,13 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: ["prettier-plugin-tailwind"],
+  plugins: [
+    function ({ addUtilities }) {
+    const newUtilities = {
+      '.smooth-scroll': {
+        'scroll-behavior': 'smooth',
+      },
+    }
+    addUtilities(newUtilities)
+  }],
 };
