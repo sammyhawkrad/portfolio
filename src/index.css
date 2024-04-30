@@ -8,7 +8,8 @@
 }
 
 body {
-  @apply text-gray-900 max-w-screen-lg mx-auto p-4;
+  @apply text-gray-900 max-w-screen-lg mx-auto p-4
+         xl:max-w-screen-xl xl:px-20 2xl:max-w-screen-2xl;
 }
 
 h1 {
@@ -17,4 +18,15 @@ h1 {
 
 #featured-projects {
   scroll-margin-top: 7rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    background-color: #1a202c;
+    @apply text-white;
+  }
+
+  img {
+    @apply hover:grayscale grayscale-0 !important;
+  }
 }

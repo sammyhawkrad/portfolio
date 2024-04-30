@@ -5,27 +5,27 @@ export default function NavBar() {
 
   const toggleMenu = () => setIsOpened(!isOpened);
 
-  const isDesktop = window.innerWidth > 1024;
+  const isDesktop = window.innerWidth > 768;
 
   return (
     <>
-      <nav className="flex flex-col lg:flex-row sticky top-0 text-center justify-center lg:justify-between p-5 lg:pt-10 z-50">
+      <nav className="flex flex-col md:flex-row sticky top-0 text-center justify-center md:justify-between p-5 md:pt-10 z-50">
         <h1 className="text-2xl mb-5">portfolio.</h1>
         <ul
-          className={`flex flex-col lg:flex-row justify-center items-center gap-3 ${isOpened || isDesktop ? "" : "hidden" }`}
+          className={`flex flex-col md:flex-row justify-center items-center gap-3 ${isOpened || isDesktop ? "" : "hidden" }`}
         >
-          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#root">Home</a></li>
+          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#">Home</a></li>
           <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#featured-projects">Projects</a></li>
           <li className="hover:border-b-2 p-2 active:border-b-2">About</li>
-          <li className="hover:border-b-2 p-2 active:border-b-2">Contact</li>
+          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#footer">Contact</a></li>
         </ul>
         <div
           id="menu-icon"
-          className="absolute top-6 right-6 lg:hidden"
+          className="absolute top-6 right-6 md:hidden"
           onClick={toggleMenu}
         >
           <svg
-            className={`menu-icons w-6 h-6 ${isOpened ? "hidden" : ""}`}
+            className={`menu-icons w-6 h-6 dark:fill-white ${isOpened ? "hidden" : ""}`}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="black"
@@ -34,7 +34,7 @@ export default function NavBar() {
             <path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z" />
           </svg>
           <svg
-            className={`menu-icons w-6 h-6 ${isOpened ? "" : "hidden"}`}
+            className={`menu-icons w-6 h-6 dark:fill-white ${isOpened ? "" : "hidden"}`}
             xmlns="http://www.w3.org/2000/svg"
             fill="black"
             viewBox="0 0 24 24"
