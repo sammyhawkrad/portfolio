@@ -20,6 +20,10 @@ h1 {
   @apply text-6xl font-bold mb-4;
 }
 
+nav a.active {
+  @apply font-bold border-b-2 p-2;
+}
+
 #featured-projects {
   scroll-margin-top: 7rem;
 }
