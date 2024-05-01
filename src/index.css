@@ -12,6 +12,10 @@ body {
          xl:max-w-screen-xl xl:px-20 2xl:max-w-screen-2xl;
 }
 
+#root {
+  @apply flex flex-col min-h-screen justify-between;
+}
+
 h1 {
   @apply text-6xl font-bold mb-4;
 }

@@ -6,6 +6,7 @@ import Home from "./views/Home.jsx";
 import Projects from "./views/Projects.jsx";
 import About from "./views/About.jsx";
 import "./index.css";
+import ErrorPage from "./views/ErrorPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
       }
     ]
   }
