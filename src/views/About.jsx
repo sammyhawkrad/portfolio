@@ -10,7 +10,7 @@ export default function About() {
                 <h2 className="text-4xl font-medium">{`Hello, I'm ${data.name}, a ${data.role}.`}</h2>
                 <p className="text-gray-600 dark:text-gray-400 text-lg pt-10" dangerouslySetInnerHTML={{ __html: data.about.replace(/\n/g, '<br>') }}></p>
                 </div>
-                <div><img src="public/sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
+                <div><img src="sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
             </section>
         </main>
         </>
