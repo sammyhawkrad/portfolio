@@ -20,11 +20,11 @@ export default function Project({ project, index }) {
             src={project.image}
             alt={project.name}
             title="View project"
-            className="w-full h-min object-scale-down grayscale hover:grayscale-0 transition duration-300 ease-in-out"
+            className="w-full max-h-80 object-scale-down grayscale hover:grayscale-0 transition duration-300 ease-in-out"
           /></a>
         </div>
         <div className="mt-5 lg:mt-0 lg:order-first lg:w-2/5 lg:pr-5 lg:flex lg:flex-col flex-grow">
-          <h3 className="uppercase mb-5 font-medium">{`0${index + 1}/ ${project.name}`}</h3>
+          <h3 className="uppercase mb-5 font-medium">{`${index < 10 ? '0': ''}${index + 1}/ ${project.name}`}</h3>
           <p className="mb-5">{project.description}</p>
           <p className="text-gray-600 dark:text-gray-400 text-sm">Built with: {formatList(project.tech) }</p>
           <div className="justify-self-end content-end grow pt-5">

@@ -13,22 +13,62 @@
     {
       "name": "OSM Accessibility Coverage",
       "description": "This project visualises the accessibility of physical locations (buildings, shops, transport stations, etc) as a heat map based on OpenStreetMap data",
-      "image": "project-image.jpg",
+      "image": "src/assets/osmaccessibility.png",
       "link": "https://sammyhawkrad.github.io/osm-accessibility-coverage/",
       "repo": "https://github.com/sammyhawkrad/osm-accessibility-coverage",
       "tags": ["Cartography", "Web Development"],
-      "tech": ["Overpass API", "uMap", "Vue.js"],
+      "tech": ["Vue.js", "Overpass API", "uMap"],
       "featured": "true"
     },
     {
-      "name": "Project Name",
-      "description": "Project Description",
-      "image": "project-image.jpg",
-      "link": "http://www.projectlink.com",
-      "repo": "http://www.projectrepo.com",
-      "tags": ["GIS", "Data Science"],
-      "tech": ["tech1", "tech2", "tech3"],
+      "name": "Austrian Castles",
+      "description": "An informative web map displaying castles in Austria. It was originally built with a Geoserver backend. Completed as a group project within the MSc. Cartography programme.",
+      "image": "src/assets/austriancastles.png",
+      "link": "https://sammyhawkrad.github.io/austriancastles/",
+      "repo": "https://github.com/sammyhawkrad/austriancastles",
+      "tags": ["Web Development", "Cartography", "GIS"],
+      "tech": ["Vue.js", "Leaflet.js", "GeoServer", "PostGIS"],
       "featured": "true"
+    },
+    {
+      "name": "nextBin",
+      "description": "An android mobile application which shows users the nearest waste bins to dispose trash.",
+      "image": "src/assets/nextbin.jpg",
+      "link": "https://github.com/sammyhawkrad/nextBin",
+      "repo": "https://github.com/sammyhawkrad/nextBin",
+      "tags": ["Mobile Development", "Cartography"],
+      "tech": ["Java", "Android Studio", "Google Maps SDK", "Overpass API"],
+      "featured": "false"
+    },
+    {
+      "name": "La Météo",
+      "description": "A simple weather app that shows the current weather at a user's location.",
+      "image": "https://github.com/sammyhawkrad/lameteo/raw/main/screenshot.png",
+      "link": "https://lameteo.netlify.app",
+      "repo": "https://github.com/sammyhawkrad/lameteo",
+      "tags": ["Web Development"],
+      "tech": ["Vue.js", "OpenWeatherMap API", "Netlify"],
+      "featured": "false"
+    },
+    {
+      "name": "Merchantt",
+      "description": "A footwear e-commerce app built with Vue.js, Node.js and MongoDB",
+      "image": "src/assets/merchantt.png",
+      "link": "https://mysterious-ridge-12552.herokuapp.com/",
+      "repo": "https://github.com/sammyhawkrad/merchantt",
+      "tags": ["Web Development"],
+      "tech": ["Vue.js", "Node.js", "MongoDB", "Heroku"],
+      "featured": "false"
+    },
+    {
+      "name": "Client App",
+      "description": "A simple client management CRUD app built with Vue.js, Node.js and MongoDB",
+      "image": "src/assets/clientapp.png",
+      "link": "https://peaceful-river-63243.herokuapp.com/",
+      "repo": "https://github.com/sammyhawkrad/client-app",
+      "tags": ["Web Development"],
+      "tech": ["Vue.js", "Node.js", "MongoDB", "Heroku"],
+      "featured": "false"
     }
   ]
 }

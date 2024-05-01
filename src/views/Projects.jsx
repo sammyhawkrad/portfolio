@@ -27,7 +27,7 @@ export default function Projects() {
                 ))}
             </div>
             </section>
-            <section id="featured-projects">
+            <section>
             {filteredProjects.map((project, index) => (
                 <Project key={index} index={index} project={project} />
             ))}
