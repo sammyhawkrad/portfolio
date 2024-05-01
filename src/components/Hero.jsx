@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 export default function Hero({info}) {
   const intro = info.intro.replace(/\n/g, '<br>');
@@ -11,7 +12,7 @@ export default function Hero({info}) {
         <p className="text-gray-600 dark:text-gray-400 text-lg pt-10" dangerouslySetInnerHTML={{ __html: intro }}></p>
         </div>
         <div><img src="sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
-        <a href="#featured-projects" className="absolute bottom-10 left-10 hidden lg:block">
+        <Link to="/#featured-projects" className="absolute bottom-10 left-10 hidden lg:block">
             <svg
             className=" w-10 h-10 text-black"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +27,7 @@ export default function Hero({info}) {
                     d="M19 14l-7 7m0 0l-7-7m7 7V3"
                 />
             </svg>
-        </a>
+        </Link>
       </section>
     </>
   );
