@@ -1,22 +1,16 @@
+import data from "../assets/data.json";
 
 
 export default function About() {
     return (
         <>
         <main>
-            <section className="text-center">
-                <h2 className="text-2xl font-medium mt-5">About Me</h2>
-                <p className="text-lg mt-5">I am a full stack web developer with a passion for creating beautiful and functional web applications. I have experience with JavaScript, React, Node.js, Express, and MongoDB. I am always eager to learn new technologies and improve my skills.</p>
-                <h2 className="text-2xl font-medium mt-5">Skills</h2>
-                <ul className="text-lg mt-5">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                </ul>
+            <section className="flex flex-col md:flex-row items-center md:justify-between mb-10">
+                <div className="md:w-2/4 mb-10">
+                <h2 className="text-4xl font-medium">{`Hello, I'm ${data.name}, a ${data.role}.`}</h2>
+                <p className="text-gray-600 dark:text-gray-400 text-lg pt-10" dangerouslySetInnerHTML={{ __html: data.about.replace(/\n/g, '<br>') }}></p>
+                </div>
+                <div><img src="src/assets/sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
             </section>
         </main>
         </>
