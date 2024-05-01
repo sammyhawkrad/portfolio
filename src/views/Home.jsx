@@ -2,18 +2,18 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Project from '../components/Project';
-import data from '../assets/projects.json';
+import data from '../assets/data.json';
 
 
 export default function Home() {
-    const [projects] = useState(data.projects);
-    const featuredProjects = projects.filter(
+    const [info] = useState(data);
+    const featuredProjects = info.projects.filter(
         (project) => project.featured === "true",
     );
 
     return (
     <main>
-        <Hero />
+        <Hero info={info} />
         <section id="featured-projects">
           <h2 className="text-2xl font-medium mt-5">Featured projects</h2>
           {featuredProjects.map((project, index) => (

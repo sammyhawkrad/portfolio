@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../assets/projects.json";
+import data from "../assets/data.json";
 import Project from "../components/Project";
 import FilterButton from "../components/FilterButton";
 
