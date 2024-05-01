@@ -6,18 +6,18 @@
       "image": "https://github.com/sammyhawkrad/OsmoseStats/raw/main/result_preview.png",
       "link": "https://sammyhawkrad.github.io/OsmoseStats/",
       "repo": "https://github.com/sammyhawkrad/OsmoseStats",
-      "tags": ["Front-end", "OpenStreetMap", "Web Development"],
+      "tags": ["Web Development"],
       "tech": ["Vue.js", "Osmose API", "OSM API"],
       "featured": "true"
     },
     {
-      "name": "Project Name",
-      "description": "Project Description",
+      "name": "OSM Accessibility Coverage",
+      "description": "This project visualises the accessibility of physical locations (buildings, shops, transport stations, etc) as a heat map based on OpenStreetMap data",
       "image": "project-image.jpg",
-      "link": "http://www.projectlink.com",
-      "repo": "http://www.projectrepo.com",
-      "tags": ["tag1", "tag2", "tag3"],
-      "tech": ["tech1", "tech2", "tech3"],
+      "link": "https://sammyhawkrad.github.io/osm-accessibility-coverage/",
+      "repo": "https://github.com/sammyhawkrad/osm-accessibility-coverage",
+      "tags": ["Cartography", "Web Development"],
+      "tech": ["Overpass API", "uMap", "Vue.js"],
       "featured": "true"
     },
     {
@@ -26,7 +26,7 @@
       "image": "project-image.jpg",
       "link": "http://www.projectlink.com",
       "repo": "http://www.projectrepo.com",
-      "tags": ["tag1", "tag2", "tag3"],
+      "tags": ["GIS", "Data Science"],
       "tech": ["tech1", "tech2", "tech3"],
       "featured": "true"
     }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   const [isOpened, setIsOpened] = useState(false);
@@ -14,9 +15,10 @@ export default function NavBar() {
         <ul
           className={`flex flex-col md:flex-row justify-center items-center gap-3 ${isOpened || isDesktop ? "" : "hidden" }`}
         >
-          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#">Home</a></li>
-          <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#featured-projects">Projects</a></li>
-          <li className="hover:border-b-2 p-2 active:border-b-2">About</li>
+
+          <NavLink to="/" className="hover:border-b-2 p-2 active:border-b-2">Home</NavLink>
+          <NavLink to="/projects" className="hover:border-b-2 p-2 active:border-b-2">Projects</NavLink>
+          <NavLink to="/about" className="hover:border-b-2 p-2 active:border-b-2">About</NavLink>
           <li className="hover:border-b-2 p-2 active:border-b-2"><a href="#footer">Contact</a></li>
         </ul>
         <div
