@@ -28,7 +28,11 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <ErrorPage />,
-      }
+      },
+      {
+      path: "/portfolio",
+      element: <Home />,
+     }
     ]
   }
 ]);
