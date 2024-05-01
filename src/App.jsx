@@ -1,20 +1,13 @@
-import { useState } from "react";
-import "./App.css";
-import data from "./assets/projects.json";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Home from "./views/Home";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  const [projects] = useState(data.projects);
-  const featuredProjects = projects.filter(
-    (project) => project.featured === "true",
-  );
 
   return (
     <>
       <NavBar />
-      <Home featuredProjects={featuredProjects} />
+        <Outlet />
       <Footer />
     </>
   );

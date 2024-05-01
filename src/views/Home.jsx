@@ -1,11 +1,16 @@
-import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Project from '../components/Project';
-import PropTypes from "prop-types";
+import data from '../assets/projects.json';
 
 
+export default function Home() {
+    const [projects] = useState(data.projects);
+    const featuredProjects = projects.filter(
+        (project) => project.featured === "true",
+    );
 
-export default function Home({featuredProjects}) {
     return (
     <main>
         <Hero />
@@ -14,14 +19,10 @@ export default function Home({featuredProjects}) {
           {featuredProjects.map((project, index) => (
             <Project key={index} index={index} project={project} />
           ))}
-          <NavLink to="/projects">
+          <Link to="/projects">
             <p className="text-center text-lg font-bold text-blue-500 mt-5">see more projects</p>
-          </NavLink>
+          </Link>
         </section>
       </main>
     );
 }
-
-Home.propTypes = {
-  featuredProjects: PropTypes.array.isRequired
-};
