@@ -23,7 +23,7 @@
     {
       "name": "OSM Accessibility Coverage",
       "description": "This project visualises the accessibility of physical locations (buildings, shops, transport stations, etc) as a heat map based on OpenStreetMap data",
-      "image": "src/assets/osmaccessibility.png",
+      "image": "public/osmaccessibility.png",
       "link": "https://sammyhawkrad.github.io/osm-accessibility-coverage/",
       "repo": "https://github.com/sammyhawkrad/osm-accessibility-coverage",
       "tags": ["Cartography", "Web Development"],
@@ -33,7 +33,7 @@
     {
       "name": "Austrian Castles",
       "description": "An informative web map displaying castles in Austria. It was originally built with a Geoserver backend. Completed as a group project within the MSc. Cartography programme.",
-      "image": "src/assets/austriancastles.png",
+      "image": "public/austriancastles.png",
       "link": "https://sammyhawkrad.github.io/austriancastles/",
       "repo": "https://github.com/sammyhawkrad/austriancastles",
       "tags": ["Web Development", "Cartography", "GIS"],
@@ -43,7 +43,7 @@
     {
       "name": "nextBin",
       "description": "An android mobile application which shows users the nearest waste bins to dispose trash.",
-      "image": "src/assets/nextbin.jpg",
+      "image": "public/nextbin.jpg",
       "link": "https://github.com/sammyhawkrad/nextBin",
       "repo": "https://github.com/sammyhawkrad/nextBin",
       "tags": ["Mobile Development", "Cartography"],
@@ -63,7 +63,7 @@
     {
       "name": "Merchantt",
       "description": "A footwear e-commerce app built with Vue.js, Node.js and MongoDB",
-      "image": "src/assets/merchantt.png",
+      "image": "public/merchantt.png",
       "link": "https://mysterious-ridge-12552.herokuapp.com/",
       "repo": "https://github.com/sammyhawkrad/merchantt",
       "tags": ["Web Development"],
@@ -73,7 +73,7 @@
     {
       "name": "Client App",
       "description": "A simple client management CRUD app built with Vue.js, Node.js and MongoDB",
-      "image": "src/assets/clientapp.png",
+      "image": "public/clientapp.png",
       "link": "https://peaceful-river-63243.herokuapp.com/",
       "repo": "https://github.com/sammyhawkrad/client-app",
       "tags": ["Web Development"],

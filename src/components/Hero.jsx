@@ -10,7 +10,7 @@ export default function Hero({info}) {
         <h2 className="text-4xl font-medium">{`Hello, I'm ${info.name}, a ${info.role}.`}</h2>
         <p className="text-gray-600 dark:text-gray-400 text-lg pt-10" dangerouslySetInnerHTML={{ __html: intro }}></p>
         </div>
-        <div><img src="src/assets/sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
+        <div><img src="public/sam.jpg" alt="Picture of Samuel"  className="grayscale hover:grayscale-0 w-72"/></div>
         <a href="#featured-projects" className="absolute bottom-10 left-10 hidden lg:block">
             <svg
             className=" w-10 h-10 text-black"
