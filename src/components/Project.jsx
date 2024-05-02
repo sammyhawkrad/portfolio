@@ -20,7 +20,7 @@ export default function Project({ project, index }) {
             src={project.image}
             alt={project.name}
             title="View project"
-            className="w-full max-h-80 object-scale-down grayscale hover:grayscale-0 transition duration-300 ease-in-out"
+            className="w-full max-h-80 object-scale-down hover:grayscale transition duration-300 ease-in-out"
           /></a>
         </div>
         <div className="mt-5 lg:mt-0 lg:order-first lg:w-2/5 lg:pr-5 lg:flex lg:flex-col flex-grow">

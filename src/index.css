@@ -33,8 +33,4 @@ nav a.active {
     background-color: #1a202c;
     @apply text-white;
   }
-
-  img {
-    @apply hover:grayscale grayscale-0 !important;
-  }
 }
