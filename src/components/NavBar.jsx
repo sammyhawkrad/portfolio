@@ -23,7 +23,7 @@ export default function NavBar() {
         </ul>
         <div
           id="menu-icon"
-          className="absolute top-6 right-6 md:hidden"
+          className="absolute top-6 right-0 md:hidden"
           onClick={toggleMenu}
         >
           <svg
