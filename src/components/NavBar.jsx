@@ -19,7 +19,7 @@ export default function NavBar() {
           <NavLink to="/" className="hover:border-b-2 p-2 active:border-b-2">Home</NavLink>
           <NavLink to="/projects" className="hover:border-b-2 p-2 active:border-b-2">Projects</NavLink>
           <NavLink to="/about" className="hover:border-b-2 p-2 active:border-b-2">About</NavLink>
-          <Link to="/#footer" className="hover:border-b-2 p-2 active:border-b-2">Contact</Link>
+          <Link to="https://sammyhawkrad.github.io/" className="hover:border-b-2 p-2 active:border-b-2">Contact</Link>
         </ul>
         <div
           id="menu-icon"
