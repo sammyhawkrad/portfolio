@@ -8,7 +8,7 @@ export default function Hero({info}) {
     <>
       <section id="hero" className="flex flex-col md:flex-row items-center md:justify-between lg:justify-around md:h-screen mb-10 pb-20">
         <div className="md:w-2/5 mb-10 md:mb-0">
-        <h2 className="text-4xl font-medium">{`Hello, I'm ${info.name}, a ${info.role}.`}</h2>
+        <h2 className="text-4xl font-medium">Hello, I&apos;m <br/>{info.name}.</h2>
         <p className="text-gray-600 dark:text-gray-400 text-lg pt-10" dangerouslySetInnerHTML={{ __html: intro }}></p>
         </div>
         <div><img src={info.image} alt="Picture of Samuel"  className="hover:grayscale w-72 lg:w-fit md:max-h-[28rem] 2xl:max-h-full"/></div>
