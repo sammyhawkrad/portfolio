@@ -2,13 +2,14 @@
   "name": "Samuel Darkwah Manu",
   "role": "web developer & cartographer",
   "intro": "Welcome to my portfolio where I display web development, cartography and data science projects I have completed. You may find a few of them below but go to the projects page to see all. \n \n &mdash; finishing my master at TUM and currently <strong>looking for a new role</strong> in web development and geoinformatics.",
-  "about": "I am multifaceted IT professional with skills cutting across data science, cartography (geoinformatics) and web development. I have expertise in building enterprise level reports and dashboards using Power BI and Tableau, performing analytics with Python libraries and geospatial tools.\n \nI have a deep understanding of how the web works and can build fullstack applications with Vue.js, React Node.js/FastAPI/Flask, relational (Postgresql, SQL Server) and non-relational databases (MongoDB).",
+  "about": "I am multifaceted IT professional with skills cutting across data science, cartography (geoinformatics) and web development. I have expertise in building enterprise level reports and dashboards using Power BI and Tableau, performing analytics with Python libraries and geospatial tools.\n \nI have a deep understanding of how the web works and can build fullstack applications with Vue.js, React, Node.js/FastAPI, relational (Postgresql, MySQL, SQL Server) and non-relational databases (MongoDB).",
   "contact": {
     "email": "manusam14@yahoo.com",
     "linkedin": "https://www.linkedin.com/in/sammyhawkrad/",
     "github": "https://github.com/sammyhawkrad",
     "twitter": "https://twitter.com/sammyhawkrad"
     },
+  "image": "sam.jpg",
   "projects": [
     {
       "name": "Osmose Statistics",
@@ -72,12 +73,12 @@
     },
     {
       "name": "Client App",
-      "description": "A simple client management CRUD app built with Vue.js, Node.js and MongoDB",
+      "description": "A simple client management CRUD app built with Vue.js, Bootstrap, Node.js and MongoDB",
       "image": "clientapp.png",
       "link": "https://peaceful-river-63243.herokuapp.com/",
       "repo": "https://github.com/sammyhawkrad/client-app",
       "tags": ["Web Development"],
-      "tech": ["Vue.js", "Node.js", "MongoDB", "Heroku"],
+      "tech": ["Vue.js", "Node.js", "Bootstrap", "MongoDB", "Heroku"],
       "featured": "false"
     }
   ]

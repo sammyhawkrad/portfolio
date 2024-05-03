@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export default function Project({ project, index }) {
 
-    function formatList(list) {
+    const formatList = (list) => {
     if (list.length === 0) {
       return '';
     } else if (list.length === 1) {

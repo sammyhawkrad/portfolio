@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex justify-end gap-2 md:gap-5">
                 <a target="_blank" rel="noopener noreferrer" href={contact.github}>Github</a>
                 <a target="_blank" rel="noopener noreferrer" href={contact.linkedin}>LinkedIn</a>
-                <a target="_blank" rel="noopener noreferrer" href={contact.linkedin}>Twitter</a>
+                <a target="_blank" rel="noopener noreferrer" href={contact.twitter}>Twitter</a>
             </div>
         </footer>
         </>
