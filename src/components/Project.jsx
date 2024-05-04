@@ -14,7 +14,7 @@ export default function Project({ project, index }) {
 
   return (
     <>
-      <div className="lg:flex pb-20 pt-20 border-b border-black dark:border-white">
+      <div className="lg:flex pb-20 pt-20 border-b border-black dark:border-gray-500">
         <div className="lg:w-3/5 lg:pl-5">
           <a href={project.link} target="_blank" rel="noopener noreferrer"><img
             src={project.image}
