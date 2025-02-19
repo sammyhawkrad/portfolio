@@ -13,7 +13,7 @@
   "projects": [
     {
       "name": "Accessible Map",
-      "description": "This project is developed as part of a master thesis in the International Master of Science in Cartography at TU Dresden. The master thesis topic is 'Accessibility Approaches for Thematic Web Maps'. The main objective of the thesis is to investigate how the Web Content Accessibility Guidelines (WCAG) can be applied to thematic web maps.",
+      "description": "This project was developed as part of a master thesis in the International Master of Science in Cartography at TU Dresden. The master thesis topic is 'Accessibility Approaches for Thematic Web Maps'. The main objective of the thesis was to investigate how the Web Content Accessibility Guidelines (WCAG) can be applied to thematic web maps.",
       "image": "accessiblemap.png",
       "link": "https://sammyhawkrad.github.io/accessible-map/",
       "repo": "https://github.com/sammyhawkrad/accessible-map/",
