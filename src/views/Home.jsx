@@ -20,7 +20,7 @@ export default function Home() {
             <Project key={index} index={index} project={project} />
           ))}
           <Link to="/projects">
-            <p className="text-center text-lg font-bold text-blue-500 mt-5">see more projects</p>
+            <p className="text-center text-lg font-bold text-blue-500 mt-5 dark:text-white">see more projects</p>
           </Link>
         </section>
       </main>

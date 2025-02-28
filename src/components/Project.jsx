@@ -34,7 +34,7 @@ export default function Project({ project, index }) {
               rel="noreferrer"
               className=""
             >
-              <img title="View Github repo" src="https://github.com/sammyhawkrad/OsmoseStats/raw/main/src/assets/github.png" alt="" />
+              <img className="dark:bg-white rounded-full border-2" title="View Github repo" role="button" src="https://github.com/sammyhawkrad/OsmoseStats/raw/main/src/assets/github.png" alt="View project on GitHub" />
             </a>
           </div>
         </div>
