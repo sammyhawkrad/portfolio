@@ -10,6 +10,18 @@
     "twitter": "https://twitter.com/sammyhawkrad"
     },
   "image": "sam.jpg",
+  "education": ["MSc. Cartography — TU Munich | TU Wien | TU Dresden | UTwente, Germany, Austria & The Netherlands",
+                "BSc. Development Planning — Kwame Nkrumah University of Science and Technology, Ghana",
+                "Business Studies (WASSCE) — Prempeh College, Ghana"
+              ],
+  "programming_languages": ["JavaScript", "TypeScript", "Python", "Java", "SQL", "HTML", "CSS"],
+  "tools_tech": [
+    {"group": "Web Development", "items": ["Vue.js", "React", "Node.js", "Express.js", "FastAPI", "Bootstrap", "Tailwind CSS"]},
+    {"group": "Cartography & GIS", "items": ["QGIS", "ArcGIS", "Leaflet.js", "Mapbox", "GeoServer", "PostGIS"]},
+    {"group": "Data Science", "items": ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-learn", "Tableau", "Power BI"]},
+    {"group": "Databases", "items": ["Postgresql", "MySQL", "SQL Server", "MongoDB"]},
+    {"group": "Version Control", "items": ["Git", "GitHub", "Gitlab"]}
+  ],
   "projects": [
     {
       "name": "Accessible Map",
